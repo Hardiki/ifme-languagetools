@@ -1,4 +1,5 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/sexybiggetje/ifme-languagetools/badge.svg)](https://snyk.io/test/github/sexybiggetje/ifme-languagetools)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6e8f9a0185eecd01d251/maintainability)](https://codeclimate.com/github/sexybiggetje/ifme-languagetools/maintainability)
 
 Language tools repo for fun and pleasure while editing translations for if me.
 
