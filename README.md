@@ -1,8 +1,10 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/sexybiggetje/ifme-languagetools/badge.svg)](https://snyk.io/test/github/sexybiggetje/ifme-languagetools)
+
 Language tools repo for fun and pleasure while editing translations for if me.
 
-run bundle install
-
-This repo needs a better readme.md
+```
+bundle install
+```
 
 Most tools require a path to your ifme checkout. I've set ../ifme as the default, provide --path if you need a different path.
 
