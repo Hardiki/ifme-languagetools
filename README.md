@@ -16,10 +16,26 @@ Needs a LanguageTool.org instance running locally. (See http://wiki.languagetool
 
 ```
 ruby suggestlang.rb --help
+Usage: suggestlang.rb [options]
+Make sure a languagetool.org instance is running.
+See: http://wiki.languagetool.org/http-server
+
+    -l, --language LANGUAGE          Language code (default: en)
+    -p, --path PATH                  Path to if me checkout (default: ../ifme)
+    -t, --tool URI                   Url to languagetool.org instance (default: http://localhost:8081/v2)
 ```
 
 ## Compare languages
 Contains a little tool that shows which keys don't exist in the comparelanguage.
+```
+ruby comparelang.rb --help
+Usage: comparelang.rb [options]
+Compares two languages for missing keys
+
+    -s, --sourcelanguage LANGUAGE    Language code (default: en)
+    -c, --comparelanguage LANGUAGE   Language code (default: sv)
+    -p, --path PATH                  Path to if me checkout (default: ../ifme)
+```
 
 Best used with en (default) as a source language. Example below compares 'en' locale on the lefth hand side and 'nl' on the right hand site.
 
